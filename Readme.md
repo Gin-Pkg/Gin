@@ -10,7 +10,7 @@ To play around with it, you can start with this:
 ## Create a  file called "Ginfile"
 ## Then, put this in the gin file:
 
-```
+```yaml
 installationCommands:
 - echo MUHAHAHAHAHAAHa
 - touch I
@@ -24,6 +24,21 @@ name: <project name when download from the a index is working>
 conflicts:
 - h
 ```
-[#] Build system deps
-[] conflicts
-[] more... 
+
+# Todo
+- [x]  Build system deps
+- [ ] conflicts
+- [ ] more...  
+
+
+I am currently working on the indexing so you can install packages without downloading the entire Ginfile. Please contact me at jakob.n.neufeld@gmail.com if there are any problems.
+
+
+## Look at my git orginization which currently have two repos
+ - One called "Gin" are the sources for the package manager. It also has an example
+ - One called "Gin-Index" which is work ij  progress.
+
+ ### Put any issues on the source repo. Not on the index repo.
+
+
+ # Here is the link to my git org: [Git Repo Org](https://github.com/Gin-Pkg/)
