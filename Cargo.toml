@@ -1,0 +1,20 @@
+[package]
+name = "gin-pkg"
+version = "0.1.6"
+authors = ["bag"]
+edition = "2018"
+description = "A package manager for installing foreign c libraries / CLI. This is also a great package maneger for rusteceans. "
+license = "MIT"
+readme = "Readme.md"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console = "0.11.2"
+indicatif = "0.14.0"
+git2 = "0.13.5"
+yaml-rust = "0.4"
+url = "2.1.1"
+clap = "3.0.0-beta.1"
+ansi_term = "0.12.1"
+duct = "0.13.4"
+dirs = "2.0.2"

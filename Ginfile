@@ -1,0 +1,12 @@
+
+installationCommands:
+- echo MUHAHAHAHAHAAHa
+- touch I
+testCommands:
+- test -f I
+dependencyFiles:
+- https://github.com/jakobneufeld/Swift-Adons.git
+source: https://github.com/jakobneufeld/Calc.git
+name: Calc
+conflicts:
+- h
