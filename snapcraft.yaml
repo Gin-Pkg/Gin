@@ -19,5 +19,5 @@ parts:
     plugin: rust
     source: .
 apps:
-  gin:
+  gin-pkg:
     command: bin/gin-pkg
